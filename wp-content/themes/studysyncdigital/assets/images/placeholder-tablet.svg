@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tabletGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#tabletGrad)"/>
+
+  <!-- Tablet body -->
+  <rect x="250" y="80" width="300" height="440" rx="20" fill="#2c3e50" opacity="0.9"/>
+  <rect x="265" y="95" width="270" height="410" rx="10" fill="#ecf0f1"/>
+
+  <!-- Screen content -->
+  <rect x="285" y="120" width="230" height="15" rx="3" fill="#e74c3c" opacity="0.6"/>
+  <rect x="285" y="150" width="180" height="12" rx="2" fill="#95a5a6" opacity="0.4"/>
+  <rect x="285" y="175" width="200" height="12" rx="2" fill="#95a5a6" opacity="0.4"/>
+  <rect x="285" y="200" width="190" height="12" rx="2" fill="#95a5a6" opacity="0.4"/>
+
+  <!-- Grid icons -->
+  <rect x="285" y="240" width="60" height="60" rx="8" fill="#3498db" opacity="0.3"/>
+  <rect x="360" y="240" width="60" height="60" rx="8" fill="#e74c3c" opacity="0.3"/>
+  <rect x="435" y="240" width="60" height="60" rx="8" fill="#2ecc71" opacity="0.3"/>
+
+  <rect x="285" y="315" width="60" height="60" rx="8" fill="#f39c12" opacity="0.3"/>
+  <rect x="360" y="315" width="60" height="60" rx="8" fill="#9b59b6" opacity="0.3"/>
+  <rect x="435" y="315" width="60" height="60" rx="8" fill="#1abc9c" opacity="0.3"/>
+
+  <!-- Tablet icon -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="60" text-anchor="middle" opacity="0.3">📱</text>
+
+  <!-- Home button -->
+  <circle cx="400" cy="490" r="8" fill="#34495e" opacity="0.3"/>
+
+  <!-- Text -->
+  <text x="400" y="555" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">StudySync Digital</text>
+  <text x="400" y="585" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" opacity="0.7">Perfect Tablets</text>
+</svg>
