@@ -1,0 +1,29 @@
+/**
+ * StudySync Deals - Admin Styles
+ *
+ * @package StudySync_Deals
+ */
+
+/* Meta Box Styling is already in the main plugin file */
+
+.deal-meta-section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.deal-meta-section:last-child {
+    border-bottom: none;
+}
+
+.deal-meta-label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.deal-help-text {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
